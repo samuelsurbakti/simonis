@@ -33,7 +33,7 @@ class LoginController extends Controller
     public function redirectTo()
     {
         if (auth()->user()->hasRole(Role::all())) {
-            $this->redirectTo = route('Panel Admin | Home');
+            $this->redirectTo = route('Simonis | Home');
             return $this->redirectTo;
         } else {
             Auth::logout();
@@ -54,7 +54,7 @@ class LoginController extends Controller
     protected function authenticated($user)
     {
         if (auth()->user()->hasRole(Role::all())) {
-            return redirect()->route('Panel Admin | Home');
+            return redirect()->route('Simonis | Home');
         } else {
             Auth::logout();
         }

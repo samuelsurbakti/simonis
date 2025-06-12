@@ -23,8 +23,11 @@ return new class extends Migration
         Schema::create($tableNames['permissions'], static function (Blueprint $table) {
             // $table->engine('InnoDB');
             $table->uuid('uuid')->primary()->unique(); // permission id
+            $table->string('type');
+            $table->uuid('menu_id')->nullable();
             $table->string('name');       // For MyISAM use string('name', 225); // (or 166 for InnoDB with Redundant/Compact row format)
             $table->string('guard_name'); // For MyISAM use string('guard_name', 25);
+            $table->integer('number');
             $table->timestamps();
 
             $table->unique(['name', 'guard_name']);

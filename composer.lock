@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "395e6417ae74bfa95fa9e50fdd7a9d12",
+    "content-hash": "556ffa0b0dd32a1f218d010b455ec828",
     "packages": [
         {
             "name": "barryvdh/laravel-dompdf",
@@ -1495,16 +1495,16 @@
         },
         {
             "name": "jantinnerezo/livewire-alert",
-            "version": "v3.0",
+            "version": "2.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jantinnerezo/livewire-alert.git",
-                "reference": "53a4c04d413528a335864f5f6eb1f3ce3e42c963"
+                "reference": "a017d3f41024ca3a589a6b0db5d0af3efe532fa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jantinnerezo/livewire-alert/zipball/53a4c04d413528a335864f5f6eb1f3ce3e42c963",
-                "reference": "53a4c04d413528a335864f5f6eb1f3ce3e42c963",
+                "url": "https://api.github.com/repos/jantinnerezo/livewire-alert/zipball/a017d3f41024ca3a589a6b0db5d0af3efe532fa9",
+                "reference": "a017d3f41024ca3a589a6b0db5d0af3efe532fa9",
                 "shasum": ""
             },
             "require": {
@@ -1551,9 +1551,15 @@
             ],
             "support": {
                 "issues": "https://github.com/jantinnerezo/livewire-alert/issues",
-                "source": "https://github.com/jantinnerezo/livewire-alert/tree/v3.0"
+                "source": "https://github.com/jantinnerezo/livewire-alert/tree/2.2.7"
             },
-            "time": "2023-07-21T18:17:43+00:00"
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/paypalme/jantinn",
+                    "type": "custom"
+                }
+            ],
+            "time": "2023-02-15T18:05:31+00:00"
         },
         {
             "name": "laravel/framework",

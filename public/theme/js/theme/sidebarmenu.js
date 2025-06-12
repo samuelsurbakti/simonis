@@ -2,7 +2,7 @@ var at = document.documentElement.getAttribute("data-layout");
 if ((at = "vertical")) {
 
   // ----------------------------------------
-  // Active 2 file at same time 
+  // Active 2 file at same time
   // ----------------------------------------
 
   var currentNewURL =
@@ -11,13 +11,13 @@ if ((at = "vertical")) {
       : document.location.href;
 
   var current_link = document.getElementById("get-url");
-  if (currentNewURL.includes("https://bootstrapdemos.wrappixel.com/main/index.html")) {
-    current_link.setAttribute("href", "index-2.html");
-  } else if (currentNewURL.includes("https://bootstrapdemos.wrappixel.com/index.html")) {
-    current_link.setAttribute("href", "index-2.html");
-  } else {
-    current_link.setAttribute("href", "index.html");
-  }
+//   if (currentNewURL.includes("https://bootstrapdemos.wrappixel.com/main/index.html")) {
+//     current_link.setAttribute("href", "index-2.html");
+//   } else if (currentNewURL.includes("https://bootstrapdemos.wrappixel.com/index.html")) {
+//     current_link.setAttribute("href", "index-2.html");
+//   } else {
+//     current_link.setAttribute("href", "index.html");
+//   }
   // end
 
 

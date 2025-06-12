@@ -10,7 +10,7 @@
         "diglactic/laravel-breadcrumbs": "^10.0",
         "guzzlehttp/guzzle": "^7.2",
         "intervention/image": "^2.7",
-        "jantinnerezo/livewire-alert": "^3.0",
+        "jantinnerezo/livewire-alert": "2.2.7",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
@@ -38,7 +38,10 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": [
+            "app/Helpers/GeneralHelper.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
